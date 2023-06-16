@@ -16,7 +16,7 @@ Este repositório é para fins de estudo do módulo git e github
 
 **- para iniciar repositório:**
 
-git init
+``git init``
 
 **- listar arquivos e pastas:**
 
@@ -40,7 +40,7 @@ ou
 
 ``git reset nome-do-arquivo``
 
-**- para desfazer um add geral(add .)
+**- para desfazer um add geral(add .)**
 
 ``git reset``
 
