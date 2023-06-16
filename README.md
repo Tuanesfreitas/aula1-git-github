@@ -36,6 +36,10 @@ ou
 
 ``git add .``
 
+**- para mostrar quais arquivos foram adicionados ou modificados**
+
+``git. status``
+
 **- para desfazer um add específico:**
 
 ``git reset nome-do-arquivo``
