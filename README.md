@@ -60,5 +60,5 @@ ou
 
 ``git reset --hard HEAD~1``
 
-<!-- Texto invisível -->
-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
+<!-- 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 -->
+
