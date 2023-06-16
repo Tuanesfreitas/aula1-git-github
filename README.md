@@ -65,7 +65,7 @@ code .
 
 git reset --soft HEAD~1
 
-- para 
+
 
 git reset --hard HEAD~1
  
@@ -82,4 +82,3 @@ git reset --hard HEAD~1
 
 * cd inicias da pasta tab *
 
-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 - Tk GHB
