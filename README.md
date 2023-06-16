@@ -19,6 +19,7 @@ cd nome-da-pasta
 git init
 
 - listar arquivos e pasta
+
 ls
 
 - apagar:
@@ -26,7 +27,8 @@ ls
 clear
 
 - para criar um arquivo:
-
+  
+touch nome do arquivo.extensão ou pasta
 echo "# nome da pasta" >> nome-do-arquivo.extensão
 
 ou
@@ -49,7 +51,7 @@ git reset nome-do-arquivo
 
 git reset
 
-- para fazer um commit:
+- para registrar um commit:
 
 git commit -m"comentário aqui"
 
@@ -60,16 +62,6 @@ git add
 - abrir o editor de código:
 
 code . 
-
-- para alterar o commit:
-
-git reset --soft HEAD~1
-
-
-
-git reset --hard HEAD~1
- 
-
 
 - Retorna ao último commit, mantendo as alterações feitas nos arquivos
 
