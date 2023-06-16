@@ -59,3 +59,6 @@ ou
 **- Para retornar ao último commit, removendo as alterações feitas nos arquivos:**
 
 ``git reset --hard HEAD~1``
+
+<!-- Texto invisível -->
+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
