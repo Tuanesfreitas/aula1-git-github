@@ -1,76 +1,57 @@
 # aula1-git-github
 Este repositório é para fins de estudo do módulo git e github
-- para criar pasta: 
 
-mkdir nome da pasta
 
-- aula1-git-github
+**- para criar pasta:**
 
-- para acessar a pasta:
+``mkdir nome-da-pasta``
 
-- sair da pasta:
+**- para acessar pasta:**
 
-cd ..
+``cd nome-da-pasta``
 
-cd nome-da-pasta
+**- para sair de uma pasta:**
 
-- para iniciar repositório:
+``cd ..``
+
+**- para iniciar repositório:**
 
 git init
 
-- listar arquivos e pasta
+**- listar arquivos e pastas:**
 
-ls
+``ls``
 
-- apagar:
+**- para criar arquivos:** 
 
-clear
-
-- para criar um arquivo:
-  
-touch nome do arquivo.extensão ou pasta
-echo "# nome da pasta" >> nome-do-arquivo.extensão
-
+``touch nome-do-arquivo.extensão ou pasta``
 ou
+``"echo #" >> nome do arquivo.extensão.extensão"``
 
-touch nome-do-arquivo
+**- para adicionar conteúdo(arquivo/pasta):**
 
-- para adicionar o conteúdo (arquivo):
+``git add nome-do-arquivo-pasta``
 
-git add nome do arquivo-pasta 
+**- para adicionar todos os arquivos/pastas:**
 
-- para adicionar todos os arquivos/pastas:
+``git add .``
 
-git add . 
+**- para desfazer um add específico:**
 
-- para desfazer um add específico:
+``git reset nome-do-arquivo``
 
-git reset nome-do-arquivo
+**- para desfazer um add geral(add .)
 
-- para desfazer add geral(git add .):
+``git reset``
 
-git reset
+**- para registrar o comentário (commit):**
 
-- para registrar um commit:
+``git commit -m "comentário aqui"``
 
-git commit -m"comentário aqui"
+**- Para retornar ao último commit, mantendo as alterações feitas nos arquivos:**
 
-- para adicionar o commit:
+``git reset --soft HEAD~1``
 
-git add
+**- Para retornar ao último commit, removendo as alterações feitas nos arquivos:**
 
-- abrir o editor de código:
-
-code . 
-
-- Retorna ao último commit, mantendo as alterações feitas nos arquivos
-
-git reset --soft HEAD~1
-
-- Retona ao último commit, removendo as alterações feitas nos arquivos
-
-git reset --hard HEAD~1
-
-
-* cd inicias da pasta tab *
-
+``git reset --hard HEAD~1``
